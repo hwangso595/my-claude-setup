@@ -1,0 +1,7 @@
+{
+  "name": "product-dev-pipeline",
+  "description": "End-to-end product development pipeline with specialized agents for product planning, sprint implementation, design evaluation, and code quality review",
+  "author": {
+    "name": "sungh"
+  }
+}

@@ -25,13 +25,16 @@ product-planner → sprint-generator → design-evaluator + code-design-evaluato
 
 ## Installation
 
+**Option 1: Load for one session**
 ```bash
-# Install from GitHub
-/plugin install <your-github-username>/my-claude-setup
-
-# Or install from local path
-/plugin install /path/to/my-claude-setup
+claude --plugin-dir /path/to/my-claude-setup
 ```
+
+**Option 2: Install permanently**
+1. Run `/plugin` in Claude Code
+2. Go to **Marketplaces** tab → add the local path or GitHub repo
+3. Go to **Discover** tab → install `product-dev-pipeline`
+4. Choose **User scope** for availability across all projects
 
 ## Usage
 

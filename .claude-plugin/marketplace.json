@@ -1,16 +1,17 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "my-claude-setup",
-  "description": "Personal Claude Code plugin collection with product development pipeline agents",
   "owner": {
     "name": "sungh"
+  },
+  "metadata": {
+    "description": "Personal Claude Code plugin collection with product development pipeline agents"
   },
   "plugins": [
     {
       "name": "product-dev-pipeline",
       "description": "End-to-end product development pipeline with specialized agents for product planning, sprint implementation, design evaluation, and code quality review",
       "category": "development",
-      "source": "."
+      "source": "./"
     }
   ]
 }
